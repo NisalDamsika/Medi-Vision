@@ -1,0 +1,105 @@
+# ============================================
+# SmartCare AI - Python / ML Project
+# ============================================
+
+# ----------------------------
+# Python cache / compiled files
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# Local databases
+# ----------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------------
+# Operating system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Python packaging
+# ----------------------------
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ----------------------------
+# ML / Data temporary artifacts
+# ----------------------------
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# ----------------------------
+# Local test / coverage files
+# ----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------------
+# Secrets / credentials
+# ----------------------------
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ----------------------------
+# Local generated data
+# ----------------------------
+data/temp/
+data/tmp/

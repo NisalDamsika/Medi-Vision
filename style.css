@@ -1,0 +1,34 @@
+/* SmartCare Hospital -- dark navy sidebar theme, close to the reference mockup */
+
+section[data-testid="stSidebar"] {
+    background-color: #1B2559;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #E8EAF6 !important;
+}
+
+section[data-testid="stSidebar"] .stButton button {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+section[data-testid="stSidebar"] .stButton button:hover {
+    background-color: #2C3873;
+    color: white !important;
+}
+
+.risk-high {
+    color: #C0392B;
+    font-weight: 600;
+}
+
+.risk-low {
+    color: #1E8449;
+    font-weight: 600;
+}
