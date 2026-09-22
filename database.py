@@ -1,6 +1,5 @@
 """
 Medi Vision -- No-Show Prediction Prototype
-Task 08: AI Prototype Development (v3)
 
 DATABASE (schema + connection helper + bulk migration)
 ----------------------------------------------------------
@@ -13,10 +12,6 @@ Tables:
                     payment, and status/lifecycle
   - admissions    : past hospital admission records (separate history)
 
-Run this file directly once to create smartcare.db, seed the 28 doctors,
-and bulk-import all 1000 rows of smartcare_ai_dataset_1000.csv as real
-patients + their historical appointment (+ admission) records:
-    python database.py
 """
 
 import sqlite3
@@ -25,8 +20,8 @@ from pathlib import Path
 from datetime import date, timedelta
 import pandas as pd
 
-DB_PATH = Path("smartcare.db")
-RAW_DATASET_PATH = Path("smartcare_ai_dataset_1000.csv")
+DB_PATH = Path("MediVision.db")
+RAW_DATASET_PATH = Path("Medi_Vision_ai_dataset_1000.csv")
 
 DEPARTMENTS = ["Cardiology", "General Medicine", "Laboratory Services", "Neurology",
                "Orthopedics", "Pediatrics", "Radiology"]
